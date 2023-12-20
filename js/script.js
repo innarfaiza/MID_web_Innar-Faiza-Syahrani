@@ -1,3 +1,20 @@
+// navbar start
+const navbarNav = document.querySelector(".navbar-nav");
+
+//hamburger di klik
+document.querySelector("#hamburger-menu").onclick = (e) => {
+  navbarNav.classList.toggle("active");
+  e.preventDefault();
+};
+
+const hamburger = document.querySelector("#hamburger-menu");
+document.addEventListener("click", function (e) {
+  if (!hamburger.contains(e.target) && !navbarNav.contains(e.target)) {
+    navbarNav.classList.remove("active");
+  }
+});
+// navbar end
+
 // search start
 const searchForm = document.querySelector(".search-form");
 const searchBox = document.querySelector("#search-box");
@@ -17,16 +34,6 @@ document.addEventListener("click", function (e) {
 
 
 // galeri start
-// const closeButtons = document.querySelectorAll("#close-icon");
-// closeButtons.forEach((close) => {
-//   close.onclick = (e) => {
-//     detailModal1.style.display = "none";
-//     detailModal2.style.display = "none";
-//     e.preventDefault();
-//   }
-// })
-
-
 const detailModal1 = document.querySelector('#item-detail1');
 const button1 = document.querySelector('.cta-detail1');
 button1.onclick = (e) => {
