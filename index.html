@@ -8,7 +8,7 @@
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600&display=swap" rel="stylesheet">
 
     <!-- icon -->
     <script src="https://unpkg.com/feather-icons"></script> 
@@ -19,17 +19,22 @@
   
   <!-- navbar start-->
   <nav class="navbar">
-    <a href="#" class="navbar-logo">Kenangan<span>Senja</span></a>
+    <a href="#" class="navbar-logo">Bloomy<span>Tale</span></a>
 
     <div class="navbar-nav">
       <a href="#home">Home</a>
-      <a href="#about">Tentang Kami</a>
-      <a href="#menu">Menu</a>
-      <a href="#contact">Kontak</a>
+      <a href="#about">About <span>Bloomy</span></a>
+      <a href="#bloomy">Bloomy's</a>
+      <a href="#contact">Contact</a>
     </div>
 
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search here...">
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+
     <div class="navbar-extra">
-      <a href="#" id="search"><i data-feather="search"></i></a>
+      <a href="#" id="search-btn"><i data-feather="search"></i></a>
       <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
       <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
     </div>
@@ -39,44 +44,155 @@
   <!-- hero section start -->
   <section class="hero" id="home">
     <main class="content">
-      <h1>Mari Nikamti Secangkir <span>Kopi</span></h1>
-      <p>asdfghjklkjhgfdsdfghjhgfdsdfghgf</p>
-      <a href="#" class="cta">Beli sekarang!</a>
+      <h1><span>Korean</span> Flower Bouqet</h1>
+      <p>~Blooming beauty, one petal at a time</p>
+      <a href="#contact" class="cta">Click to found us!</a>
     </main>
   </section>
   <!-- hero section end -->
 
   <!-- about section start -->
-  <section id="about" class="about">
-    <h2><span>Tentang</span> Kami</h2>
-
-    <div class="row">
-      <div class="about-image">
-        <img src="image/galeri2.jpeg" alt="Tentang Kami">
+  <section class="about" id="about">
+    <div class="row"> 
+      <div class="judul" >
+        <h2>Tentang Kami</h2>
+        <div class="line">
+          <svg width="549" height="10" viewBox="0 0 549 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.19888e-06 5.50705C0.00390238 7.71619 1.79792 9.50389 4.00705 9.49999C6.21619 9.4961 8.00389 7.70208 7.99999 5.49295C7.9961 3.28381 6.20208 1.49611 3.99295 1.50001C1.78381 1.5039 -0.00388998 3.29792 6.19888e-06 5.50705ZM541 4.55291C541.004 6.76205 542.798 8.54975 545.007 8.54585C547.216 8.54195 549.004 6.74794 549 4.5388C548.996 2.32966 547.202 0.541965 544.993 0.545861C542.784 0.549758 540.996 2.34377 541 4.55291ZM4.00132 6.25L545.001 5.29585L544.999 3.79586L3.99868 4.75L4.00132 6.25Z" fill="#5C3535"/>
+          </svg>
+        </div>
       </div>
-      <div class="content">
-        <h3>Kenapa memilih toko kami?</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, rem!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio suscipit maxime cumque nesciunt quis fuga cupiditate illum illo quod deleniti.</p>
+      <div class="text">
+          <div class="about-image">
+            <img src="image/aboutbloomy.png" alt="About Bloomy">
+          </div>
+          <article>
+            <p>BloomyTale menjual bucket dengan tema model korean looks, dengan bunga sebagai objek utama penjualan kami. </p>
+            <p>Tidak hanya bucket bunga, kami juga menerima pemesanan bucket berisikan request customer yang akan dikemas dengan tema korean looks.</p>
+            <p>Our service made by catalogs or your request, kami juga menyediakan additional polaroid loh.</p>
+            <p>Check instagram kita untuk explore lebih banyak!</p>
+          </article>
       </div>
     </div>
   </section>
   <!-- about section end -->
 
-  <!-- menu section start -->
-  <section id="menu" class="menu">
-    <h2><span>Menu</span> Kami</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae recusandae quo adipisci quisquam incidunt necessitatibus.</p>
+  <!-- Bloomy's section start -->
+  <section  class="bloomy" id="bloomy">
+    <div class="row"> 
+      <div class="judul" >
+        <h2>Bloomy's Work</h2>
+        <div class="line">
+          <svg width="549" height="10" viewBox="0 0 549 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.19888e-06 5.50705C0.00390238 7.71619 1.79792 9.50389 4.00705 9.49999C6.21619 9.4961 8.00389 7.70208 7.99999 5.49295C7.9961 3.28381 6.20208 1.49611 3.99295 1.50001C1.78381 1.5039 -0.00388998 3.29792 6.19888e-06 5.50705ZM541 4.55291C541.004 6.76205 542.798 8.54975 545.007 8.54585C547.216 8.54195 549.004 6.74794 549 4.5388C548.996 2.32966 547.202 0.541965 544.993 0.545861C542.784 0.549758 540.996 2.34377 541 4.55291ZM4.00132 6.25L545.001 5.29585L544.999 3.79586L3.99868 4.75L4.00132 6.25Z" fill="#5C3535"/>
+          </svg>
+        </div>
+      </div>
+      <div class="box_koleksi">
+        <div class="row_koleksi">
+          <div class="column">
+            <img src="image/1.jpg">
+            <img src="image/2.jpg">
+            <img src="image/3.jpg">
+          </div>
+          <div class="column">
+            <img src="image/4.jpg">
+            <img src="image/5.jpg">
+            <img src="image/6.jpg">
+          </div>
+          <div class="column">
+            <img src="image/7.jpg">
+            <img src="image/8.jpg">
+            <img src="image/9.jpg">
+          </div>
+        </div>
+      </div>
+      <h1 class="text" style="padding-top: 10px;">Their`s special request and additional</h1>
+      <svg class="line2" width="300" height="12" viewBox="0 0 500 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M500 6.0408L490.023 0.226529L489.976 11.7734L500 6.0408ZM-0.000175348 4.99999L490.996 7.00406L491.004 5.00407L0.00798785 3.00001L-0.000175348 4.99999Z" fill="black"/>
+      </svg>
+      <div class="box_tambahan">
+        <div class="detail-card">
+          <img src="image/req1.png">
+          <div class="detail-icon">
+            <a href="#" class="cta-detail1">Details</a>
+          </div>
+        </div>
+        <div class="detail-card">
+          <img src="image/req2.png">
+          <div class="detail-icon">
+            <a href="#" class="cta-detail2">Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
-
-  <div class="row">
-    <div class="menu-card">
-      <img src="image/berita1.jpg" alt="espreso" class="menu-card-image">
-      <h3 class="menu-card-title">- espreso -</h3>
-      <p class="price">15 k</p>
+  <!-- Bloomy's section end -->
+  <div class="modal" id="item-detail1">
+    <div class="modal-container">
+      <a href="#" id="close-icon1" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <ul style="list-style-type:disc">
+            <p>additional polaroid fee= 10k/pcs</p>
+            <li>adding 3 requested photos</li>
+            <li>size= small to medium</li>
+          </ul>
+        </div>
     </div>
   </div>
-  <!-- menu section end -->
+
+  <div class="modal" id="item-detail2">
+    <div class="modal-container">
+      <a href="#" id="close-icon2" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <ul style="list-style-type:disc">
+            <p>Buket foto kertas hvs</p>
+            <li>made with requested photos</li>
+            <li>size= small to medium</li>
+            <li>adding flowers detail</li>
+          </ul>
+        </div>
+    </div>
+  </div>
+  <!-- details card start -->
+
+  <!-- details card end-->
+
+  <!-- contact section start -->
+  <section class="contact">
+    <div class="ket" id="contact">
+      <h3>Contact</h3>
+      <p>Any question or request? just call us or visit us</p>
+    </div>
+    <div class="row">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.6781774764663!2d119.48873447508763!3d-5.155386994821918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee341af8af2d3%3A0xb8144cb2e141d7ec!2sJl.%20Sambas%20No.21%2C%20Antang%2C%20Kec.%20Manggala%2C%20Kota%20Makassar%2C%20Sulawesi%20Selatan%2090562!5e0!3m2!1sid!2sid!4v1700469797443!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
+      <div class="information">
+        <h2>Contact information</h2>
+        <div class="text">
+          <div class="whatsapp">
+            <a href="wa.me/+6281342627700"><img src="image/wa.png" alt="wa"></a>
+            <p>081342627700</p>
+          </div>
+          <div class="time">
+            <img src="image/daily.png" alt="">
+            <p>Daily, from at 8am to 5pm</p>
+          </div>
+          <div class="instagram">
+            <a href="https://www.instagram.com/bloomytale.id/"><img src="image/ig.png" alt=""></a>
+            <p>bloomytale.id</p>
+          </div>
+          <div class="alamat">
+            <img src="image/almt.png" alt="">
+            <p>Jalan Sambas no.21, Perumahan Bukit Baruga, Antang</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="credit">
+    <p>&copy;2023 Innar Faiza Syahrani, all rights reserved</p>
+  </div>
 
   <!-- icon -->
   <script>
